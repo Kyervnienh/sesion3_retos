@@ -61,3 +61,24 @@ li a {
     border: 0;
     border-radius: 5px;
 }
+
+.promo-container {
+    font-family: Tahoma, sans-serif;
+}
+
+.publicidad-item h1 {
+    color:#025157;
+    font-size: 34px;
+    line-height: 38px;
+}
+
+.publicidad-item > p {
+    color: #343434;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.publicidad-item form > p {
+    color: #025157;
+    font-size: 14px;
+}
