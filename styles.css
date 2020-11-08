@@ -1,3 +1,20 @@
+body {
+    background-color: #fffbf7;
+}
+
+.header-container-padre-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
+}
+
+main {
+    margin-top: 250px;
+    text-align: center;
+}
+
 .header-container-padre {
     margin-top: 40px;
     margin-left: 20px;
@@ -63,22 +80,68 @@ li a {
 }
 
 .promo-container {
+    display: flex;
     font-family: Tahoma, sans-serif;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
 }
 
-.publicidad-item h1 {
+.promo-video-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.promo-video-item img {
+    width: 40%;
+}
+
+.promo-publicidad-item h1 {
     color:#025157;
-    font-size: 34px;
-    line-height: 38px;
+    margin-top: 0;
+    font-size: 36px;
+    line-height: 40px;
 }
 
-.publicidad-item > p {
+.promo-publicidad-item > p {
     color: #343434;
     font-size: 16px;
     line-height: 1.5;
+    margin-bottom: 25px;
 }
 
-.publicidad-item form > p {
+.promo-publicidad-item > form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promo-publicidad-item > form p {
     color: #025157;
     font-size: 14px;
+    padding-right: 10px;
+}
+
+.promo-publicidad-item > form button {
+    color: #fff;
+    background-color:#025157;;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.promo-publicidad-item > form input {
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid gray;
+    background-color: #fff;
 }
